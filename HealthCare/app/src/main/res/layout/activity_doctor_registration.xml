@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/scrollmap"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        tools:context=".DoctorRegistration">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/logo_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            app:cardCornerRadius="50dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/logo_doc"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="2dp"
+                android:src="@drawable/ic_person_outline_black_24dp"
+                app:civ_border_color="#b4b1b1"
+                app:civ_border_overlay="true"
+                app:civ_border_width="1dp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardlog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo_card"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp">
+
+
+            <RelativeLayout
+                android:id="@+id/rel_log"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="35dp">
+
+                <TextView
+                    android:id="@+id/type_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Register As A Doctor"
+                    android:textColor="@color/primaryText"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+               <android.support.v4.widget.NestedScrollView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/type_label"
+                   android:id="@+id/doc_map_1">
+
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+
+                       <android.support.design.widget.TextInputLayout
+                           android:id="@+id/login_input_firstname_doc"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+
+                           <EditText
+                               android:id="@+id/input_firstname_login_doc"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:singleLine="true"
+                               android:hint="Firstname"/>
+
+                       </android.support.design.widget.TextInputLayout>
+
+                       <android.support.design.widget.TextInputLayout
+                           android:layout_below="@id/login_input_firstname_doc"
+                           android:id="@+id/login_input_lastname_doc"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+
+                           <EditText
+                               android:id="@+id/input_lastname_login_doc"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:singleLine="true"
+                               android:hint="Lastname"/>
+
+                       </android.support.design.widget.TextInputLayout>
+
+                       <android.support.design.widget.TextInputLayout
+                           android:layout_below="@id/login_input_lastname_doc"
+                           android:id="@+id/login_input_email_doc"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+
+                           <EditText
+                               android:id="@+id/input_email_login_doc"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:singleLine="true"
+                               android:hint="Email"/>
+
+                       </android.support.design.widget.TextInputLayout>
+
+                       <android.support.design.widget.TextInputLayout
+                           android:id="@+id/login_input_password_doc"
+                           android:layout_below="@id/login_input_email_doc"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+
+                           <EditText
+                               android:id="@+id/input_pasword_login_doc"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:singleLine="true"
+                               android:inputType="textPassword"
+                               android:hint="Pasword"/>
+
+                       </android.support.design.widget.TextInputLayout>
+
+                       <android.support.design.widget.TextInputLayout
+                           android:id="@+id/login_input_contactno_doc"
+                           android:layout_below="@id/login_input_password_doc"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+
+                           <EditText
+                               android:id="@+id/input_contactno_login_doc"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:singleLine="true"
+                               android:maxLength="10"
+                               android:inputType="number"
+                               android:hint="Contact No"/>
+
+                       </android.support.design.widget.TextInputLayout>
+
+                       <Spinner
+                           android:layout_below="@id/login_input_contactno_doc"
+                           android:id="@+id/doc_type"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+
+                       </Spinner>
+
+                       <Spinner
+                           android:layout_margin="5dp"
+                           android:layout_below="@id/doc_type"
+                           android:id="@+id/city_doc"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+
+                       </Spinner>
+
+                       <android.support.design.widget.TextInputLayout
+                           android:id="@+id/login_input_address_doc"
+                           android:layout_below="@id/city_doc"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+
+                           <EditText
+                               android:imeOptions="actionSearch"
+                               android:id="@+id/input_address_login_doc"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:hint="Address"/>
+
+                       </android.support.design.widget.TextInputLayout>
+
+                   </RelativeLayout>
+
+               </android.support.v4.widget.NestedScrollView>
+
+                <fragment
+                    android:id="@+id/map_doc"
+                    android:name="teqvirtual.deep.healthcare.GoogleMapWithScrollFix"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@id/doc_map_1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="2dp"
+                    />
+
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/login_btn_doc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/map_doc"
+                    android:background="@color/colorAccent"
+                    android:text="Register"
+                    android:textColor="#fff" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+</ScrollView>

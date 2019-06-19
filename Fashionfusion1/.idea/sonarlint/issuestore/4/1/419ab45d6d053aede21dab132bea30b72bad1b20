@@ -1,0 +1,11 @@
+
+wsquid:S00115L"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ÿïúÿÿÿÿ
+qsquid:S00115N"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ì’ˆd
+qsquid:S00115K"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘’
+rsquid:S00115M"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(®’³è
+msquid:S2068P"V'password' detected in this expression, review this potentially hard-coded credential.(û¨Ôö
+Vsquid:S1118J":Add a private constructor to hide the implicit public one.(„ì®˜ùÿÿÿÿ
+jsquid:S00101J"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(„ì®˜ùÿÿÿÿ
+rsquid:S00115P"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(û¨Ôö
+Usquid:S3400+"9Remove this method and declare a constant for this value.(Ô‚ïüÿÿÿÿ
+rsquid:S00115O"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(º„›

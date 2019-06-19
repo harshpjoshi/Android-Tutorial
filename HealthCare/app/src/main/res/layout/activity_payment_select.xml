@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentSelect">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/ToolbarStyle">
+
+        <TextView
+            android:text="Payment"
+            android:textStyle="bold"
+            android:fontFamily="@font/rubik_medium"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"
+            android:id="@+id/title_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:id="@+id/view"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividerColor"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="58dp"
+        android:weightSum="1"
+        android:id="@+id/radioGroup">
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Creditcard"
+                android:id="@+id/radioButton"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textSize="16dp" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Debitcard"
+                android:id="@+id/radioButton2"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textSize="16dp" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Netbanking"
+                android:id="@+id/radioButton3"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textSize="16dp" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Cash on Delivery"
+                android:id="@+id/radioButton4"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textSize="16dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroup"
+        android:layout_margin="20dp"
+        android:text="continue"/>
+</RelativeLayout>

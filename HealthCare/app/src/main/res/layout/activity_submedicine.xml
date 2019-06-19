@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Submedicine">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/ToolbarStyle">
+
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/rubik_medium"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"
+            android:id="@+id/title_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:id="@+id/view"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividerColor"/>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cat_card"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        app:cardCornerRadius="8dp"
+        android:layout_marginLeft="@dimen/mtrl_card_spacing"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="@dimen/mtrl_card_spacing"
+        android:minHeight="100dp">
+
+        <ImageView
+            android:id="@+id/cat_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <include layout="@layout/sub_medicine_list"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/cat_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

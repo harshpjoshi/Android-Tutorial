@@ -1,0 +1,7 @@
+
+gsquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(ûÑÉÅÿÿÿÿÿ
+gsquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(ÞîÐÛùÿÿÿÿ
+]squid:UselessImportCheck"4Remove this unused import 'android.widget.GridView'.(éÐÏ«ÿÿÿÿÿ
+_squid:S1226("HIntroduce a new variable instead of reusing the parameter "convertView".(Í¼ê—
+gsquid:CommentedOutCodeLine+"<This block of commented-out lines of code should be removed.(ï©èâøÿÿÿÿ
+ˆ"squid:ClassVariableVisibilityCheck4"UMake mThumbIds a static final constant or non-public and provide accessors if needed.(™ø÷¬ÿÿÿÿÿ

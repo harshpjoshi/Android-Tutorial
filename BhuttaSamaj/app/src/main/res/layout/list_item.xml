@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <android.support.v7.widget.CardView
+           android:layout_margin="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <RelativeLayout
+               android:padding="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <de.hdodenhof.circleimageview.CircleImageView
+                   android:layout_width="89dp"
+                   android:layout_height="89dp"
+                   android:layout_marginTop="24dp"
+                   android:id="@+id/img_mem"/>
+               <TextView
+                   android:text="hello"
+                   android:layout_marginLeft="30dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textSize="16dp"
+                   android:layout_toRightOf="@+id/img_mem"
+                   android:id="@+id/list_name"/>
+
+              <View
+                  android:id="@+id/view1"
+                  android:layout_marginLeft="20dp"
+                  android:layout_below="@+id/list_name"
+                  android:layout_toRightOf="@+id/img_mem"
+                  android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:background="#d2cccccc"
+                  />
+
+               <TextView
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="30dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/list_desig"
+                   android:textSize="14dp"
+                   android:layout_below="@+id/view1"
+                   android:layout_toRightOf="@+id/img_mem"
+                   />
+
+               <TextView
+                   android:layout_marginTop="10dp"
+                   android:id="@+id/list_add"
+                   android:textSize="12dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_toRightOf="@+id/img_mem"
+                   android:layout_below="@+id/list_desig"
+                   android:layout_marginLeft="30dp"
+                   />
+
+               <View
+                   android:layout_marginTop="10dp"
+                   android:id="@+id/view2"
+                   android:layout_marginLeft="20dp"
+                  android:layout_below="@+id/list_add"
+                   android:layout_toRightOf="@+id/img_mem"
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:background="#d2cccccc"
+                   />
+
+               <ImageView
+                   android:clickable="true"
+                   android:id="@+id/call_img"
+                   android:layout_width="20dp"
+                   android:layout_height="20dp"
+                   android:src="@drawable/ic_phone_receiver"
+                   android:layout_below="@+id/view2"
+                   android:layout_marginLeft="30dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_toRightOf="@+id/img_mem"/>
+
+               <TextView
+                   android:textSize="12dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/list_mobile"
+                   android:layout_toRightOf="@+id/call_img"
+                   android:layout_below="@+id/view2"
+                   />
+
+               <ImageView
+                   android:src="@drawable/ic_cake"
+                   android:id="@+id/birt_img"
+                   android:layout_width="15dp"
+                   android:layout_height="15dp"
+                   android:layout_below="@+id/list_mobile"
+                   android:layout_marginLeft="230dp"/>
+
+               <TextView
+                   android:layout_marginLeft="10dp"
+                   android:textSize="12dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/list_birth"
+                   android:layout_toRightOf="@+id/birt_img"
+                   android:layout_below="@id/list_mobile"/>
+
+           </RelativeLayout>
+
+       </android.support.v7.widget.CardView>
+
+   </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.github.florent37.shapeofview.shapes.PolygonView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="2dp"
+        app:shape_polygon_noOfSides="6">
+
+        <ImageView
+            android:id="@+id/shoe_img"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+    </com.github.florent37.shapeofview.shapes.PolygonView>
+
+</RelativeLayout>

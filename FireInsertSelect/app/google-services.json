@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "450874087874",
+    "firebase_url": "https://fireinsertselect.firebaseio.com",
+    "project_id": "fireinsertselect",
+    "storage_bucket": "fireinsertselect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450874087874:android:1d0e1438d37b98bb",
+        "android_client_info": {
+          "package_name": "teqvirtual.deep.fireinsertselect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450874087874-ampd1d9ag2gr0kdd06gqmouavaafdkbs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teqvirtual.deep.fireinsertselect",
+            "certificate_hash": "5dbd1c6f34787a34c22cdaecf2738b4019327bd8"
+          }
+        },
+        {
+          "client_id": "450874087874-6fvtdmduhnghecmmedjdfug0jovklu61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFY9seKQH5M3L_k0XyBr3hZUzRB0sZSkw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450874087874-6fvtdmduhnghecmmedjdfug0jovklu61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

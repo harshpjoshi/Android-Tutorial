@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/advert_img"/>
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_phone_receiver"
+                android:id="@+id/call_img"
+                android:layout_below="@+id/advert_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:textColor="#000"
+                android:padding="5dp"
+                android:id="@+id/advert_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/advert_img"
+                android:layout_toRightOf="@+id/call_img"/>
+
+            <TextView
+                android:textColor="#000"
+                android:padding="5dp"
+                android:id="@+id/advert_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/advert_mobile"/>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

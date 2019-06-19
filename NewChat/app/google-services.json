@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "860040010867",
+    "firebase_url": "https://newchat-d9fd0.firebaseio.com",
+    "project_id": "newchat-d9fd0",
+    "storage_bucket": "newchat-d9fd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860040010867:android:4e444aa5024a93fc",
+        "android_client_info": {
+          "package_name": "teqvirtual.deep.newchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860040010867-d7cus0mqg26njib46grlv24mlotmc4fg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teqvirtual.deep.newchat",
+            "certificate_hash": "5dbd1c6f34787a34c22cdaecf2738b4019327bd8"
+          }
+        },
+        {
+          "client_id": "860040010867-ho4o8nk4ufk0gd1mr3egnj85mqc98js3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ1_Bi0_tw8e9Ah8ehsyPbVDlk-O3nNXo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860040010867-ho4o8nk4ufk0gd1mr3egnj85mqc98js3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

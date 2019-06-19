@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:theme="@style/ToolbarTheme">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       
+       <ImageView
+           android:src="@drawable/ic_chat"
+           android:layout_width="50dp"
+           android:layout_height="40dp" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="4dp"
+           android:fontFamily="@font/abel"
+           android:text="NewChat"
+           android:textColor="#000"
+           android:textSize="24sp"
+           android:textStyle="bold" />
+       
+   </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>

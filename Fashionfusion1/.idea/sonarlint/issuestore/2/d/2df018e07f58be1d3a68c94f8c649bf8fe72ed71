@@ -1,0 +1,5 @@
+
+ˆ"squid:ClassVariableVisibilityCheckP"UMake mThumbIds a static final constant or non-public and provide accessors if needed.(™ø÷¬ÿÿÿÿÿ
+]squid:UselessImportCheck
+"4Remove this unused import 'android.widget.GridView'.(éÐÏ«ÿÿÿÿÿ
+dsquid:S12264"HIntroduce a new variable instead of reusing the parameter "convertView".(èÏ‹Òüÿÿÿÿ

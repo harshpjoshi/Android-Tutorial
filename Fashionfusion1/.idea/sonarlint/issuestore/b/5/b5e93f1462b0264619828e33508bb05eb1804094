@@ -1,0 +1,14 @@
+
+wsquid:S00115W"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(±Š™Éüÿÿÿÿ
+wsquid:S00115U"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ÿïúÿÿÿÿ
+qsquid:S00115T"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘’
+qsquid:S00115Y"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(´â“y
+rsquid:S00115X"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‹Ä–
+fsquid:S00100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ÿìô
+isquid:S00117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ÿìô
+esquid:S00100I"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒŒÅ1
+rsquid:S00115V"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ù“°ü
+nsquid:S00116"VRename this field "category_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷‡úÇ
+jsquid:S00101S"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(„ì®˜ùÿÿÿÿ
+Usquid:S34004"9Remove this method and declare a constant for this value.(›Ä“²øÿÿÿÿ
+Vsquid:S1118S":Add a private constructor to hide the implicit public one.(„ì®˜ùÿÿÿÿ

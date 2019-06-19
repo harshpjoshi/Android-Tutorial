@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectSignup">
+
+    <ImageView
+        android:id="@+id/sub_logo"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/clinic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:fontFamily="@font/rubik_medium"
+        android:id="@+id/text_sub_logo"
+        android:layout_below="@id/sub_logo"
+        android:textColor="@color/primaryText"
+        android:textSize="16dp"
+        android:text="Welcome to Auxiliary Healthcare"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_sub_logo2"
+        android:fontFamily="@font/rubik_regular"
+        android:textColor="@color/secondaryText"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/text_sub_logo"
+        android:minLines="2"
+        android:textAlignment="center"
+        android:text="Select User Signup Type for Creating Account"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/text_sub_logo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:background="@color/colorPrimary"
+            android:id="@+id/signup_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_select_signup"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/signup_type"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"/>
+    </RelativeLayout>
+</RelativeLayout>

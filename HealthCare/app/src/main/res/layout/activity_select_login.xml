@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectLogin">
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_doctor_stetus"
+        />
+
+    <android.support.v7.widget.CardView
+        android:layout_below="@id/logo"
+        android:id="@+id/cardlog"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp"
+        android:layout_marginLeft="20dp">
+
+        <RelativeLayout
+            android:id="@+id/rel_log"
+            android:padding="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login As A"
+                android:textSize="18dp"
+                android:textColor="@color/primaryText"
+                android:id="@+id/type_label"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                />
+
+            <RadioGroup
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/type_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_type">
+
+                <RadioButton
+                    android:layout_gravity="center_horizontal"
+                    android:checked="true"
+                    android:id="@+id/subscriber_reg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subscriber"/>
+
+                <RadioButton
+                    android:layout_gravity="center"
+                    android:id="@+id/doctor_reg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doctor"/>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/login_btn_select"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_type"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorAccent"
+                android:text="next"
+                android:textColor="#fff" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/registration_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Create New Account"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/cardlog"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>
+</ScrollView>

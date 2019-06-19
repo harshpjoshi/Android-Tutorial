@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/friendprofileimg"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#8F8B8B"
+        app:civ_border_width="1dp" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:id="@+id/friendname"
+        android:layout_toRightOf="@id/friendprofileimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/aclonica"
+        android:text="TextView"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_toRightOf="@id/friendprofileimg"
+        android:layout_below="@id/friendname"
+        android:fontFamily="@font/aclonica"
+        android:layout_marginLeft="20dp"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/friendstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</RelativeLayout>

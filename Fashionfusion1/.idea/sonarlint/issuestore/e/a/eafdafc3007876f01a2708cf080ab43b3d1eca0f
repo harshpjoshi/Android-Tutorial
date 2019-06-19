@@ -1,0 +1,4 @@
+
+dsquid:MaximumInheritanceDepth	"<This class has 7 parents which is greater than 5 authorized.(öË¹2
+dsquid:S00101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(öË¹2
+nsquid:UselessImportCheck"CRemove this unused import 'com.dhanvi.fashionfusion1.model.MyData'.(ØÁƒé8Ê›ø¤‘-

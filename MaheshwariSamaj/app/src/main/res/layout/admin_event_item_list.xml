@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:transitionName="profile"
+                android:scaleType="fitXY"
+                android:id="@+id/admin_event_image_item"
+                android:layout_width="match_parent"
+                android:layout_height="160dp" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/admin_event_image_item"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/font"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_event_black_24dp"
+                android:id="@+id/admin_event_name_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/admin_event_name_item"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/font"
+                android:textSize="14dp"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                android:id="@+id/admin_event_date_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/admin_event_date_item"
+                android:layout_below="@id/admin_event_name_item"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/font"
+                android:textSize="14dp"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_access_time_black_24dp"
+                android:id="@+id/admin_event_time_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/admin_event_date_item"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/font"
+                android:textSize="14dp"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                android:id="@+id/admin_event_location_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/event_update_img"
+                android:src="@drawable/ic_edit_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/admin_event_location_item"
+                android:layout_marginEnd="10dp"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

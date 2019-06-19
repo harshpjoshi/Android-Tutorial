@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aboutus">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bmslogo"
+        android:id="@+id/login_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+   <android.support.v7.widget.CardView
+       android:id="@+id/card"
+       android:layout_width="match_parent"
+       android:layout_below="@id/login_logo"
+       android:layout_height="wrap_content"
+       android:layout_margin="25dp">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Borana village is located in Raipur Tehsil of Bhilwara district in Rajasthan, India. It is situated 3km away from sub-district headquarter Raipur and 80km away from district headquarter Bhilwara. As per 2009 stats, Borana village is also a gram panchayat.
+
+The total geographical area of village is 1590 hectares. Borana has a total population of 4,616 peoples. There are about 950 houses in Borana village. Gangapur is nearest town to Borana which is approximately 35km away.                       "
+                android:textColor="@color/font"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="14dp"
+                />
+
+       </RelativeLayout>
+
+   </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/abt_call"
+        android:textSize="16dp"
+        android:text="+919265835803"
+        android:textColor="@color/font"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/ic_call_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/abt_mail"
+        android:textSize="16dp"
+        android:text="rakesh.shah@gmail.com"
+        android:textColor="@color/font"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/abt_call"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/version_abt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="14dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@id/abt_mail"
+        android:text="Version 1.1"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/font"
+        />
+
+    <TextView
+        android:id="@+id/bms_abt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@id/version_abt"
+        android:text="Borana Maheshwari Samaj"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/font"
+        />
+
+    <TextView
+        android:text="teqvirtual.com"
+        android:textColor="@color/font"
+        android:textSize="14dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/bms_abt"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+</ScrollView>

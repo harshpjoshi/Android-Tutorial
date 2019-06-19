@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_add_member"
+            android:icon="@drawable/ic_man_user"
+            android:title="Add Member" />
+        <item
+            android:id="@+id/nav_add_news"
+            android:icon="@drawable/ic_text_lines"
+            android:title="Add News" />
+        <item
+            android:id="@+id/nav_add_event"
+            android:icon="@drawable/ic_calendar"
+            android:title="Add Event" />
+        <item
+            android:id="@+id/nav_add_gallery"
+            android:icon="@drawable/ic_picture"
+            android:title="Add Gallery" />
+
+        <item
+            android:id="@+id/nav_advertise_add"
+            android:icon="@drawable/ic_advertising"
+            android:title="Add Advertise" />
+
+        <item
+            android:id="@+id/nav_terms_add"
+            android:icon="@drawable/ic_advertising"
+            android:title="Terms &amp; Condition" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_domain_black_24dp"
+            android:title="Aboutus" />
+
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_lock_black_24dp"
+            android:title="Signout" />
+    </group>
+
+</menu>

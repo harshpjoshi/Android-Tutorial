@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FirebaseChatApp</string>
+    <string name="chat_app">Welcome To Firebase \n \t \t \t \t\t \t\t \t Chat App</string>
+    <string name="chat_login">Already Have an Account</string>
+    <string name="chat_register">Need an Account</string>
+    <string name="client_id">714265544724-t6cfcqd32cfk7ou5dq128atmm7fabii2.apps.googleusercontent.com</string>
+
+    <string name="request">Request</string>
+    <string name="request_type">Request_type</string>
+    <string name="received">Receive</string>
+    <string name="friend_list">Friend_List</string>
+    <string name="friend">Friends</string>
+    //facebook
+    <string name="facebook_app_id">243205863263535</string>
+    <string name="fb_login_protocol_scheme">fb243205863263535</string>
+    <string name="user">Users</string>
+    <string name="chatapp">ChatApp</string>
+    <string name="sent">Sent</string>
+</resources>

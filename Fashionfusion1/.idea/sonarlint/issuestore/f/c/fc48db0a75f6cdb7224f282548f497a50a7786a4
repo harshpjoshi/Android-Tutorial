@@ -1,0 +1,6 @@
+
+˜"squid:ClassVariableVisibilityCheck"eMake SERVER_URL_WEBSERVICE_API a static final constant or non-public and provide accessors if needed.(Íœüµÿÿÿÿÿ
+€squid:S3008"dRename this field "SERVER_URL_WEBSERVICE_API" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íœüµÿÿÿÿÿ
+[squid:S1444"?Make this "public static SERVER_URL_WEBSERVICE_API" field final(Íœüµÿÿÿÿÿ
+Žsquid:S1319"rThe type of the "parameters" object should be an interface such as "Map" rather than the implementation "HashMap".(àÉëƒýÿÿÿÿ
+Lsquid:S1068"0Remove this unused "isTaskKilled" private field.(½ÀÝùÿÿÿÿÿ

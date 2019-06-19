@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/slider"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="@dimen/mtrl_card_spacing"
+        android:layout_marginRight="15dp"
+        android:minHeight="150dp">
+
+        <ss.com.bannerslider.Slider
+            app:slider_interval="5000"
+            app:slider_loopSlides="true"
+            android:id="@+id/banner_slider1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:slider_animateIndicators="true"
+            app:slider_defaultBanner="1"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/slider"
+        android:weightSum="2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.MaterialComponents.CardView"
+            app:cardCornerRadius="8dp"
+            android:layout_weight="1"
+            android:id="@+id/sms_card"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/sms_img"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    app:srcCompat="@drawable/ic_textsms_black_24dp"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp" />
+
+                <TextView
+                    android:textSize="16dp"
+                    android:fontFamily="@font/rubik_medium"
+                    android:textColor="@color/secondaryText"
+                    android:text="Message"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/sms_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.MaterialComponents.CardView"
+            app:cardCornerRadius="8dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:id="@+id/suggest_tips_card"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/suggest_img"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    app:srcCompat="@drawable/ic_recommendation"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp" />
+
+                <TextView
+                    android:textSize="16dp"
+                    android:fontFamily="@font/rubik_medium"
+                    android:textColor="@color/secondaryText"
+                    android:text="Suggest Tips"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/suggest_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

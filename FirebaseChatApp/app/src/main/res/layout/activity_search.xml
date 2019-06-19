@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity">
+
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:id="@+id/relative11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.libizo.CustomEditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Name"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:inputType="text"
+            app:libIZO_setBackgroundColor="#fff"
+            android:id="@+id/user_search"
+            app:libIZO_clearIconTint="#FFFFFF"
+            app:libIZO_setBorderColor="#FFFFFF"
+            app:libIZO_setBorderView="true"
+            app:libIZO_setClearIconVisible="true"
+            app:libIZO_setCornerRadius="4dp"
+            app:libIZO_setStrokeWidth="1dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/searchlist"
+            android:background="#fff"
+            android:layout_below="@id/user_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/searchbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_search_black_24dp" />
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+
+        android:layout_width="441dp"
+        android:layout_height="270dp"
+        android:layout_marginBottom="292dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.356"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/member_img"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/man_user"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:textSize="14dp"
+                android:text="Add Member Image"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_txt"
+                android:layout_toRightOf="@+id/member_img"/>
+
+            <EditText
+                android:layout_marginTop="14dp"
+                android:hint="Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/member_name"
+                android:layout_below="@+id/img_txt"
+                android:layout_centerHorizontal="true"/>
+
+            <EditText
+                android:layout_marginTop="14dp"
+                android:hint="Birtdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="false"
+                android:id="@+id/member_birthdate"
+                android:layout_below="@+id/member_name"
+                android:layout_centerHorizontal="true"/>
+            <EditText
+                android:layout_marginTop="14dp"
+                android:hint="Address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/member_address"
+                android:layout_below="@+id/member_birthdate"
+                android:layout_centerHorizontal="true"/>
+            <EditText
+                android:layout_marginTop="14dp"
+                android:hint="City"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/member_city"
+                android:layout_below="@+id/member_address"
+                android:layout_centerHorizontal="true"/>
+            <EditText
+                android:layout_marginTop="14dp"
+                android:hint="Mobileno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="10"
+                android:id="@+id/member_mobile"
+                android:layout_below="@+id/member_city"
+                android:layout_centerHorizontal="true"/>
+            <EditText
+                android:layout_marginTop="14dp"
+                android:hint="Occupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/member_occupation"
+                android:layout_below="@+id/member_mobile"
+                android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:id="@+id/addmember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/button"
+                android:ems="10"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:text="Add Member"
+                android:layout_below="@+id/member_occupation"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

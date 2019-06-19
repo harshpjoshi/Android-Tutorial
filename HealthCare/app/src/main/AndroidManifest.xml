@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="teqvirtual.deep.healthcare">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".Firebase.FireCon"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".QrscanActivity"></activity>
+        <activity android:name=".PaymentSelect" />
+        <activity
+            android:name=".SuggestedTips"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".DoctorEditProfile"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".SuggestedStore"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".SuggestTips"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".MedicalstoreDetail"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".MedicalstoreList"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".HospitalList"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".DoctorList"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity android:name=".SubscriberEditprofile" />
+        <activity
+            android:name=".SuggestMedicalstore"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".DoctorMessagingActivity"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".MessagingActivity"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".SubscriberMessageTab"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".DoctorMessageTab"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity android:name=".DoctorMainProfile" />
+        <activity
+            android:name=".DoctorSubProfile"
+            android:label="@string/title_activity_doctor_sub_profile"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".TipsDetail"
+            android:label="@string/title_activity_tips_detail"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".HospitalDetail"
+            android:label="@string/title_activity_hospital_detail"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".MyCart"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".MainMedicine"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".MedicineGrid"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".Submedicine"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity
+            android:name=".SubscriberProfile"
+            android:label="@string/title_activity_subscriber_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <service android:name=".Firebase.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/CustomActivityTheme2" />
+        <activity android:name=".DoctorSignup" />
+        <activity android:name=".SubscriberSignup" />
+        <activity android:name=".SelectSignup" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

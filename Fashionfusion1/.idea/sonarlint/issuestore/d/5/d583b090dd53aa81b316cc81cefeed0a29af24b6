@@ -1,0 +1,12 @@
+
+[squid:S1854#"?Remove this useless assignment to local variable "useservices".(€¦Æ¨øÿÿÿÿ
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ä«é
+Tsquid:S1905+"1Remove this unnecessary cast to "NavigationView".(üûÍøÿÿÿÿ8æüÔ¢‘-
+Wsquid:S1854""@Remove this useless assignment to local variable "findservices".(ñş­
+esquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(Ä«é
+Rsquid:S1905%"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8æüÔ¢‘-
+Rsquid:S1905V"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8æüÔ¢‘-
+Hsquid:S1481""1Remove this unused "findservices" local variable.(ñş­
+Ssquid:S1905"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8æüÔ¢‘-
+Lsquid:S1481#"0Remove this unused "useservices" local variable.(€¦Æ¨øÿÿÿÿ
+Msquid:S1905 "*Remove this unnecessary cast to "Toolbar".(ªü–ıÿÿÿÿ8æüÔ¢‘-

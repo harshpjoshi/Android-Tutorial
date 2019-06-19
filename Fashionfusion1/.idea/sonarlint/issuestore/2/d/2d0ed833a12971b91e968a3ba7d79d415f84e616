@@ -1,0 +1,10 @@
+
+@squid:S14815")Remove this unused "list" local variable.(Ú¨¾
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ê¦ˆ…úÿÿÿÿ
+jsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(Ê¦ˆ…úÿÿÿÿ
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(½Çü8é˜¸‘-
+Osquid:S18545"8Remove this useless assignment to local variable "list".(Ú¨¾
+|squid:S1450"YRemove the "categoryNo" field and declare it as a local variable in the relevant methods.(ªŸÚûÿÿÿÿ8Ûîı¢‘-
+dsquid:UnusedPrivateMethod-"3Remove this unused private "getProductList" method.(àÕüäùÿÿÿÿ8é˜¸‘-
+asquid:HiddenFieldCheck5"8Rename "list" which hides the field declared at line 19.(Ú¨¾8°´»‘-
+vsquid:S1450"SRemove the "list" field and declare it as a local variable in the relevant methods.(“±˜şÿÿÿÿÿ8°´»‘-

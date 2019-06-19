@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="Select Quntity"
+        android:fontFamily="@font/rubik_medium"
+        android:textColor="@color/primaryText"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/qty_logo"/>
+
+    <NumberPicker
+        android:layout_below="@id/qty_logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/number_picker">
+
+    </NumberPicker>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/update_qty"
+        style="@style/Widget.MaterialComponents.Button"
+        android:text="Update"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number_picker"/>
+</RelativeLayout>

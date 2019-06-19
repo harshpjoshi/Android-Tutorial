@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/admin_nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/admin_nav_About"
+            android:icon="@drawable/care_about_planet"
+            android:title="Aboutus" />
+        <item
+            android:id="@+id/admin_nav_contactus"
+            android:icon="@drawable/contact_info"
+            android:title="Contact" />
+        <item
+            android:id="@+id/admin_nav_member"
+            android:icon="@drawable/man_user"
+            android:title="View Member" />
+        <item
+            android:id="@+id/admin_nav_news"
+            android:icon="@drawable/newspaper"
+            android:title="View News" />
+        <item
+            android:id="@+id/admin_nav_event"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="View Event" />
+        <item
+            android:id="@+id/admin_nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="View Gallery" />
+        <item
+            android:id="@+id/admin_nav_advertise"
+            android:icon="@drawable/ads"
+            android:title="View Advertise" />
+    </group>
+
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

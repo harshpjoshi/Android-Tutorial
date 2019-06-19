@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="teqvirtual.deep.boranasamaj">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bmslogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="teqvirtual.deep.boranasamaj.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="teqvirtual.deep.boranasamaj.Option" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.Userprofile"
+            android:label="Borana Maheshwari Samaj"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.Member"
+            android:label="Member"
+            android:theme="@style/CustomActivityTheme" />
+        <activity android:name="teqvirtual.deep.boranasamaj.Login" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.Adminprofile"
+            android:label="Borana Maheshwari Samaj"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.Addmember"
+            android:label="Add Member"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.AdminViewMember"
+            android:label="View Member"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.UpdateMember"
+            android:label="Update Member"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.Addgallery"
+            android:label="Add Image"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.Gallery"
+            android:label="Gallery"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.AdminViewGallery"
+            android:label="View Gallery"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.Addadvertise"
+            android:label="Add Advertise"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.Advertise"
+            android:label="View Advertise"
+            android:theme="@style/Transition" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.ViewAddMain"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.AdminViewAdvertise"
+            android:label="View Advertise"
+            android:theme="@style/Transition" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.Addevent"
+            android:label="Add Event"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.Event"
+            android:label="View Event"
+            android:theme="@style/Transition" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.ViewEventMain"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.AdminViewEvent"
+            android:label="View Event"
+            android:theme="@style/Transition" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.EventUpdate"
+            android:label="Update Event"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.Addnews"
+            android:label="Add News"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.News"
+            android:label="View News"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name="teqvirtual.deep.boranasamaj.AdminViewNews"
+            android:label="View News"
+            android:theme="@style/CustomActivityTheme" />
+        <activity android:name="teqvirtual.deep.boranasamaj.ForgotPasword" />
+        <activity android:name="teqvirtual.deep.boranasamaj.Aboutus"></activity>
+    </application>
+
+</manifest>

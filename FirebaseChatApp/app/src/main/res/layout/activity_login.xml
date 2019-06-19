@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.github.florent37.materialtextfield.MaterialTextField
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:mtf_labelColor="#fff"
+            android:id="@+id/login_email_con"
+            app:mtf_image="@drawable/ic_email_black_24dp">
+
+            <EditText
+                android:inputType="textEmailAddress"
+                android:id="@+id/login_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textSize="15sp"
+                />
+        </com.github.florent37.materialtextfield.MaterialTextField>
+
+        <com.github.florent37.materialtextfield.MaterialTextField
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:mtf_labelColor="#fff"
+            android:id="@+id/login_password_con"
+            android:layout_below="@id/login_email_con"
+            app:mtf_image="@drawable/ic_vpn_key_black_24dp">
+
+            <EditText
+                android:inputType="textPassword"
+                android:id="@+id/login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textSize="15sp"
+                />
+        </com.github.florent37.materialtextfield.MaterialTextField>
+
+        <Button
+            android:id="@+id/login_btn_login"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="Login"
+            android:layout_below="@id/login_password_con"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+
+        <com.google.android.gms.common.SignInButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/google_signin"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/login_btn_login">
+
+        </com.google.android.gms.common.SignInButton>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/facebook_login"
+            android:layout_below="@id/google_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:layout_marginBottom="30dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.developer.bhuttasamaj">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bmslogo"
+        android:label="Borana Maheshwarisamaj"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="Borana Maheshwari Samaj" />
+        <activity android:name=".Select" />
+        <activity
+            android:name=".Profile"
+            android:label="Borana Maheshwari Samaj"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewMember"
+            android:label="View Member" />
+        <activity
+            android:name=".Event"
+            android:label="Events" />
+        <activity
+            android:name=".AdminProfile"
+            android:label="Borana Maheshwari Samaj"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddMember"
+            android:label="Add Member" />
+        <activity
+            android:name=".AddEvent"
+            android:label="Add Event" />
+        <activity
+            android:name=".AddNews"
+            android:label="Add News" />
+        <activity
+            android:name=".AddAdverise"
+            android:label="Add Advertise" />
+        <activity
+            android:name=".AddGallery"
+            android:label="Add Gallery" />
+        <activity
+            android:name=".News"
+            android:label="News" />
+        <activity
+            android:name=".Advertise"
+            android:label="Advertise" />
+        <activity
+            android:name=".Gallery"
+            android:label="Gallery" />
+        <activity android:name=".Home" />
+        <activity android:name=".Aboutus" />
+        <activity android:name=".Contactus" />
+        <activity android:name=".ForgotPass"></activity>
+    </application>
+
+</manifest>

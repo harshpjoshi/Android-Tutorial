@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "714265544724",
+    "firebase_url": "https://chatapp-899ff.firebaseio.com",
+    "project_id": "chatapp-899ff",
+    "storage_bucket": "chatapp-899ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714265544724:android:b62980c6511a58d5",
+        "android_client_info": {
+          "package_name": "teqvirtual.deep.firebasechatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714265544724-p4h0a4q22se7q5hb99idjb75lgch4i9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASdtSLeRIDKnURa3HSPWb2BjNmTLixaXc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

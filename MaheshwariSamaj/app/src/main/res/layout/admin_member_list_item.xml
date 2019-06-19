@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/fab_margin"
+                android:id="@+id/member_item_image"
+                />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/member_item_name"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/font"
+                android:textSize="16dp"
+                android:layout_toRightOf="@id/member_item_image"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/member_item_occupation"
+                android:textSize="14dp"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_work_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/font"
+                android:layout_marginRight="10dp"
+                android:layout_below="@id/member_item_name"
+                android:layout_toRightOf="@id/member_item_image"/>
+
+            <TextView
+                android:layout_below="@id/member_item_occupation"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/font"
+                android:textSize="14dp"
+                android:id="@+id/member_item_address"
+                android:layout_toRightOf="@id/member_item_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_below="@id/member_item_address"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/font"
+                android:textSize="14dp"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_location_city_black_24dp"
+                android:id="@+id/member_item_city"
+                android:layout_toRightOf="@id/member_item_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_below="@id/member_item_city"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/font"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_cake_black_24dp"
+                android:id="@+id/member_item_dob"
+                android:layout_toRightOf="@id/member_item_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/member_item_city"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/font"
+                android:textSize="14dp"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_call_black_24dp"
+                android:id="@+id/member_item_contactno"
+                android:layout_toRightOf="@id/member_item_dob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:id="@+id/delete_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Delete"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@id/member_item_image"
+                android:layout_below="@id/member_item_dob"
+                android:background="@drawable/shape_border"
+                android:textColor="@color/font"
+                />
+
+            <Button
+                android:id="@+id/update_member"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Update"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@id/delete_btn"
+                android:layout_below="@id/member_item_dob"
+                android:background="@drawable/shape_dark"
+                android:textColor="@color/colorPrimary"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

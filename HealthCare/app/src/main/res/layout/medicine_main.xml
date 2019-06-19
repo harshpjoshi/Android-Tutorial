@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_main_medicine">
+
+    <TextView
+        android:id="@+id/medicine_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="67dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textColor="@color/primaryText"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:layout_below="@id/medicine_name"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/medicine_image"
+        android:transitionName="medicine"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:id="@+id/medicine_price"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryText"
+        android:layout_below="@id/medicine_image"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/medicine_image"
+        android:layout_marginStart="-46dp"
+        android:layout_marginTop="38dp"
+        android:layout_toEndOf="@+id/medicine_image"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Quantity"
+        android:textColor="@color/primaryText"
+        android:textSize="14dp" />
+
+    <Button
+        android:layout_toRightOf="@id/qty"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@id/medicine_image"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/plus"
+        android:background="@drawable/ic_add_circular_button"/>
+
+    <TextView
+        android:layout_toRightOf="@id/plus"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="38dp"
+        android:layout_below="@id/medicine_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/primaryText"
+        android:id="@+id/quantity_text"
+        />
+
+    <Button
+        android:layout_toRightOf="@id/quantity_text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@id/medicine_image"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/minus"
+        android:background="@drawable/ic_minus"/>
+
+    <Button
+        android:id="@+id/addtobag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:text="Add To Bag"
+        android:textColor="#ffff"/>
+
+</RelativeLayout>

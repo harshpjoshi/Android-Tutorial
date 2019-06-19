@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "832019907378",
+    "firebase_url": "https://healthcare-f75a7.firebaseio.com",
+    "project_id": "healthcare-f75a7",
+    "storage_bucket": "healthcare-f75a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832019907378:android:55900ae6ec8c7ea6",
+        "android_client_info": {
+          "package_name": "teqvirtual.deep.healthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832019907378-m5kmc5jejkcb35g07dukj99c83kojhkg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teqvirtual.deep.healthcare",
+            "certificate_hash": "c7c35279d8f93732dabe40374a5bf5c54365cc69"
+          }
+        },
+        {
+          "client_id": "832019907378-lg9n4mk7nfvbnvgc9eobrbo5ic6u0bq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVmcnalzElmHT0P3DPGQDI1usr4Px878Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832019907378-lg9n4mk7nfvbnvgc9eobrbo5ic6u0bq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

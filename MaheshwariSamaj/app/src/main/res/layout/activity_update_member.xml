@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateMember">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout_member_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_member_update"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_below="@id/appBarLayout_member_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="20dp">
+
+        <RelativeLayout
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_person_black_24dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/font"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/update_member_image"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/update_member_image"
+                android:layout_marginTop="10dp"
+                android:hint="Name"
+                android:id="@+id/update_member_name"
+                />
+
+            <EditText
+                android:focusable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Birtdate"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/update_member_name"
+                android:id="@+id/update_member_birthday"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="Address"
+                android:layout_below="@id/update_member_birthday"
+                android:id="@+id/update_member_address"/>
+
+            <EditText
+                android:id="@+id/update_member_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="City"
+                android:layout_below="@id/update_member_address"
+                android:layout_marginTop="5dp"
+                />
+
+            <EditText
+                android:id="@+id/update_member_mobile"
+                android:hint="Mobile"
+                android:maxLength="10"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/update_member_city"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Occupation"
+                android:layout_below="@id/update_member_mobile"
+                android:id="@+id/update_member_occupation"/>
+
+            <Button
+                android:id="@+id/update_add_member"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/button"
+                android:text="Update Member"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/update_member_occupation"
+                android:textColor="@color/colorPrimary"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
+</ScrollView>

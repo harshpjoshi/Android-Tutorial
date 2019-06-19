@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile_doc"
+            android:icon="@drawable/ic_person_outline_black_24dp"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_order_doc"
+            android:icon="@drawable/ic_shopping_bag"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_prescription_doc"
+            android:icon="@drawable/ic_prescription"
+            android:title="Upload Prescription" />
+        <item
+            android:id="@+id/nav_doctor_doc"
+            android:icon="@drawable/ic_doctor"
+            android:title="Doctor"/>
+        <item
+            android:id="@+id/nav_medicalstore_doc"
+            android:icon="@drawable/ic_medicalstore"
+            android:title="Medicalstore"/>
+        <item
+            android:id="@+id/nav_hospital_doc"
+            android:icon="@drawable/ic_hospital"
+            android:title="Hospital"/>
+        <item
+            android:id="@+id/nav_medicine_doc"
+            android:icon="@drawable/ic_medicine"
+            android:title="Medicine"/>
+        <item
+            android:id="@+id/nav_tips_doc"
+            android:icon="@drawable/ic_seo_tips"
+            android:title="Tips"/>
+        <item
+            android:id="@+id/nav_scan_doc"
+            android:icon="@drawable/ic_barcode"
+            android:title="Scan Medicine"/>
+        <item
+            android:id="@+id/nav_about_doc"
+            android:icon="@drawable/ic_care_about_planet"
+            android:title="Aboutus"/>
+        <item
+            android:id="@+id/nav_terms_doc"
+            android:icon="@drawable/ic_term"
+            android:title="Terms &amp; Condition"/>
+        <item
+            android:id="@+id/nav_logout_doc"
+            android:icon="@drawable/ic_lock_black_24dp"
+            android:title="Logout"/>
+    </group>
+
+</menu>

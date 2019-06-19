@@ -1,0 +1,10 @@
+
+[squid:UselessImportCheck"7Remove this unused import 'android.widget.AdapterView'.(¶¾éæ
+esquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(˜ËÑ
+Xsquid:UselessImportCheck	"4Remove this unused import 'android.widget.ListView'.(Œ‰Ö×
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(˜ËÑ
+^squid:UselessImportCheck"5Remove this unused import 'android.widget.ImageView'.(ú¯ëàüÿÿÿÿ
+Wsquid:UselessImportCheck".Remove this unused import 'android.view.View'.(Ø½­äþÿÿÿÿ
+Zsquid:UselessImportCheck
+"1Remove this unused import 'android.widget.Toast'.(©›ïÍúÿÿÿÿ
+Vsquid:UselessImportCheck"3Remove this unused import 'android.content.Intent'.(³ð‹G

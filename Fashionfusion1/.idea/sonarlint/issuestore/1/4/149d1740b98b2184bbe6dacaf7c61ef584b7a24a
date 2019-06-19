@@ -1,0 +1,5 @@
+
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÃÌÍ™
+?squid:S1148#"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+esquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(ÃÌÍ™
+]squid:S2142""FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€

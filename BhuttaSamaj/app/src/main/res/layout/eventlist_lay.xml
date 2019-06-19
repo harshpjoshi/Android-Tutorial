@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+           <RelativeLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:scaleType="fitXY"
+                   android:layout_width="match_parent"
+                   android:layout_height="150dp"
+                   android:id="@+id/event_img"
+                   />
+
+               <TextView
+                   android:textColor="#000"
+                   android:textSize="16dp"
+                   android:id="@+id/list_event_name"
+                   android:layout_marginLeft="20dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/event_img"
+                   android:layout_marginTop="10dp"/>
+
+               <ImageView
+                   android:src="@drawable/ic_access_time_black_24dp"
+                   android:id="@+id/img_time"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginBottom="10dp"
+                   android:layout_width="20dp"
+                   android:layout_height="20dp"
+                   android:layout_below="@+id/list_event_name"/>
+
+               <TextView
+                   android:layout_marginLeft="10dp"
+                   android:textSize="12dp"
+                   android:textColor="#000"
+                   android:layout_marginTop="10dp"
+                   android:id="@+id/event_time"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_toRightOf="@+id/img_time"
+                   android:layout_below="@+id/list_event_name"
+                   />
+
+               <TextView
+                   android:textColor="#000"
+                   android:layout_marginLeft="30dp"
+                   android:textSize="12dp"
+                   android:id="@+id/event_date"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginBottom="15dp"
+                   android:layout_below="@+id/event_time"/>
+
+               <ImageView
+                   android:layout_marginLeft="50dp"
+                   android:id="@+id/loc_event"
+                   android:src="@drawable/ic_location_on_black_24dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_width="20dp"
+                   android:layout_height="20dp"
+                   android:layout_toRightOf="@+id/event_date"
+                   android:layout_below="@+id/list_event_name"
+                   />
+
+               <TextView
+                   android:textColor="#000"
+                   android:layout_marginRight="20dp"
+                   android:textSize="12dp"
+                   android:id="@+id/event_location"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:layout_toRightOf="@+id/loc_event"
+                   android:layout_below="@+id/list_event_name"
+                   android:layout_marginBottom="15dp"
+                   />
+
+
+           </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
